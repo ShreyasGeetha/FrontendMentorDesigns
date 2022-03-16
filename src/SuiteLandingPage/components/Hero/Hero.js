@@ -11,9 +11,9 @@ import CurveTopImg from './CurveTopImg'
 
 const Hero = () => {
   return (
-    <div className='mx-4 my-20 max-w-2xl md:max-w-3xl'>      
-      <div className='flex flex-col '>
-        <div className='min-w-fit'>
+    <div className='mx-4 my-20 max-w-2xl md:max-w-689  md:mx-auto xl:max-w-6xl xl:mx-auto '>      
+      <div className='flex flex-col xl:flex-row md:relative  '>
+        <div className='min-w-fit md:z-10 md:h-482 md:mt-10 '>
           <CurveTopImg />
           <HeroTitle />
           <Description />
