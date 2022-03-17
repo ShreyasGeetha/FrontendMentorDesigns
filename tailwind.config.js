@@ -9,11 +9,12 @@ module.exports = {
       tightest: '-0.14px',
       suite: '-0.44px',
       tighter: '-.05em',
+      mpOne:'-0.01em',
       tight: '-.025em',
       mOnePx: '-0.0625em',
       OnePx: '0.0625em',
       normal: '0',
-      pointZNine: '0.09px',
+      pointZNine: '0.006em',
       wide: '.025em',
       wider: '.05em',
       widest: '.1em',
@@ -24,12 +25,16 @@ module.exports = {
       screens: {
         'sm': '375px',
         'xl': '1440px'
-    },
+      },
+      borderRadius: {
+        '2xl': '15px'
+      },
       fontFamily: {
         epilogue: "'Epilogue', serif" 
       },
       lineHeight: {
         '56': '56px',
+        '26': '26px',
         '78': '78px'
       },
       fontSize: {
@@ -38,6 +43,10 @@ module.exports = {
         letterSpacing: '-0.53px',
         lineHeight: '44px',
         }],
+        40: ['40px', {
+        letterSpacing: '-0.42px',
+        lineHeight: '48px',
+      }],
         56: ['56px', {
         letterSpacing: '-0.78px',
         lineHeight: '64px',
@@ -48,6 +57,7 @@ module.exports = {
         screenBackground: '#FAF8F6',
         creamWhite: '#FAF8F6',
         grey: '#49566D',
+        cream:'#F3EDE7',
       },
       borderWidth: {
         '1': '1px'
@@ -55,11 +65,15 @@ module.exports = {
       width: {
         '21': '5.29rem',
         '151': '9.48rem',
+        '82': '343px',
         '768': '48rem',
+        '689': '689px',
+        '5xl': '1109px',
       },
       height: {
         '19': '1.19rem',
-        '600': '37.5rem',
+        '545': '545px',
+        '600': '37.5rem',        
         '482': '482px'
       },
       margin: {
