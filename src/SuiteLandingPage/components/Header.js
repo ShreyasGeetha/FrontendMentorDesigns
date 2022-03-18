@@ -5,7 +5,7 @@ import logo from '../assets/logo.svg'
 function Header() {
   return (
     <div className='ml-4 mt-6 md:mt-10
-    md:max-w-689 md:mx-auto
+    md:max-w-5xl md:mx-10
     xl:mt-13
     xl:max-w-5xl xl:mx-auto
     

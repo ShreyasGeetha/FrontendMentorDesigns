@@ -3,7 +3,7 @@ import React from 'react'
 const HeroTitle = () => {
   return (
     <>
-      <div className='text-38 md:text-56 md:max-w-lg
+      <div className='text-38 md:text-56 
       xl:max-w-xl
       xl:text-7xl xl:leading-78
       xl:tracking-mOnePx
